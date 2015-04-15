@@ -303,7 +303,8 @@ function createTwemoji(re) {
 
           // default assets url, by default will be Twitter Inc. CDN
           base: (location.protocol === 'https:' ? 'https:' : 'http:') +
-                '//twemoji.maxcdn.com/',
+                '//s3.amazonaws.com/instaply-webapp/assets/twemoji/',
+                // '//twemoji.maxcdn.com/',
 
           // default assets file extensions, by default '.png'
           ext: '.png',
